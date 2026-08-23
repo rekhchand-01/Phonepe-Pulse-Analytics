@@ -439,57 +439,6 @@ and understand how payment behavior changes across dimensions.
 
 ------------------------------------------------------------------------
 
-# Suggested Dashboard Layout
-
-## Page 1 --- Executive Overview
-
-``` text
-------------------------------------------------------
-              PHONEPE TRANSACTION OVERVIEW
-------------------------------------------------------
- Year | Quarter | Transaction Type
-------------------------------------------------------
- Total Volume | Total Value | Avg Value | Top Category
-------------------------------------------------------
-        Transaction Volume Over Time
-------------------------------------------------------
- Transaction Value Over Time | Category Distribution
-------------------------------------------------------
- Highest Volume Quarter | Highest Value Quarter
-------------------------------------------------------
-```
-
-## Page 2 --- Geographic Analysis
-
-``` text
-------------------------------------------------------
-              GEOGRAPHIC ANALYSIS
-------------------------------------------------------
- Top States by Volume | Top States by Value
-------------------------------------------------------
-       Volume vs Transaction Value
-                  Scatter
-------------------------------------------------------
-                 India Map
-------------------------------------------------------
-```
-
-## Page 3 --- Growth Analysis
-
-``` text
-------------------------------------------------------
-                GROWTH ANALYSIS
-------------------------------------------------------
- Transaction Count Growth vs Value Growth
-------------------------------------------------------
-       Fastest Growing Categories
-------------------------------------------------------
-             Average Value Trend
-------------------------------------------------------
-```
-
-------------------------------------------------------------------------
-
 # Project Structure
 
 A recommended repository structure is:
@@ -517,37 +466,19 @@ PhonePe-Pulse-Analytics/
 
 ------------------------------------------------------------------------
 
-# Reproducibility
-
-To reproduce the analysis:
+# Major Steps involved
 
 ### Step 1 --- Obtain the dataset
 
-Download the required PhonePe Pulse dataset from the official PhonePe
-Pulse platform.
-
 ### Step 2 --- Place the raw data in the project directory
-
-Maintain the year/quarter folder structure expected by the Jupyter
-notebook.
 
 ### Step 3 --- Run the Jupyter Notebook
 
-The notebook performs the required extraction, transformation,
-aggregation and export operations.
-
 ### Step 4 --- Export the processed datasets
-
-Save the prepared datasets as Excel files.
 
 ### Step 5 --- Open Power BI
 
-Load the processed Excel datasets into Power BI.
-
 ### Step 6 --- Build/refresh the dashboard
-
-Refresh the Power BI model and interact with the available slicers and
-visuals.
 
 ------------------------------------------------------------------------
 
@@ -569,7 +500,7 @@ India.
 
 ## Author
 
-**Rameshwar Sahu**\
+**Rekhchand Sahu**\
 **Final Year, NIT Raipur**
 
 ------------------------------------------------------------------------
